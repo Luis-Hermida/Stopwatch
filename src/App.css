@@ -1,0 +1,56 @@
+html {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.button {
+  padding: .6rem 1.5rem;
+  margin: .4rem;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+  border-style: groove;
+}
+
+.button:focus {
+  outline-width: 0;
+}
+
+.button-primary-active {
+  background-color: #f44336;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.button-primary-active:hover {
+  background-color: #d84237;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.button-primary-inactive {
+  background-color: #3151ff;
+  border: 1px solid #000;
+  color: white;
+}
+
+.button-primary-inactive:hover {
+  background-color: #223edb;
+  border: 1px solid #000;
+  color: white;
+}
